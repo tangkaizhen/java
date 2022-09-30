@@ -8,7 +8,10 @@ import java.util.Scanner;
  */
 public class BranchTest {
     public static void main(String[] args) {
-
+        /**
+         * 比较两个字符串是否相等，可以使用: equals
+         *
+         */
         System.out.println("请输入您的考试成绩");
         Scanner s = new Scanner(System.in);
         int score = s.nextInt();
@@ -16,11 +19,6 @@ public class BranchTest {
             System.out.println("恭喜，及格了");
         }else {
             System.out.println("很抱歉，没有通过");
-        }
-        if(score < 0){
-            System.out.println("该整数是个负数");
-        }else {
-            System.out.println("该整数是个非负数");
         }
     }
 }
